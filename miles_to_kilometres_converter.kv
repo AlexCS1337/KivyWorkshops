@@ -1,0 +1,18 @@
+BoxLayout:
+    orientation: 'vertical'
+    BoxLayout:
+        TextInput:
+            id: input_miles
+            text: ''
+        BoxLayout:
+            size_hint_x: .2
+            orientation: 'vertical'
+            Button:
+                text: 'Up'
+            Button:
+                text: 'Down'
+    Button:
+        text: 'Convert m to km'
+    Label:
+        id: output_label
+        text: ''
